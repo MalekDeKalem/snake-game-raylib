@@ -30,7 +30,7 @@ int main(void)
     std::string score_string;
     SetTargetFPS(20);
 
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "My Game");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "SNAKE GAME");
     std::vector<Snake> snake;
     Snake head = {{(float) SCREEN_WIDTH/2 - GRID_SIZE/2, (float) SCREEN_HEIGHT/2 - GRID_SIZE/2}, {GRID_SIZE, 0}};
     snake.push_back(head);
