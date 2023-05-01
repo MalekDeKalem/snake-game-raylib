@@ -8,5 +8,5 @@ When the building process is done you have to link the library you just installe
 g++ -I /path/to/headerfiles programm.cpp -o /path/to/lib
 ```
 
-my headerfiles where in /usr/local/include while my library was in /usr/local/lib/.. \
+my headerfiles were in /usr/local/include while my library was in /usr/local/lib/.. \
 This should be default. If however this is different on your setup you have to find out where the headerfiles and libs are.
